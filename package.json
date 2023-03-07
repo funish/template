@@ -1,0 +1,38 @@
+{
+  "name": "{{workspace.name}}",
+  "version": "0.0.0",
+  "description": "{{workspace.description}}",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r prepack",
+    "lint:rome": "rome check .",
+    "lint:prettier": "prettier --check . --ignore-path .gitignore",
+    "lintfix": "prettier --write --list-different . --ignore-path .gitignore && rome check . --apply-suggested",
+    "postinstall": "githooks install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{workspace.owner}}/{{workspace.name}}.git"
+  },
+  "keywords": [
+    "{{workspace.keywords}}"
+  ],
+  "author": {
+    "name": "{{workspace.author.name}}",
+    "email": "{{workspace.author.email}}",
+    "url": "{{workspace.author.url}}"
+  },
+  "license": "{{workspace.license}}",
+  "bugs": {
+    "url": "https://github.com/{{workspace.owner}}/{{workspace.name}}/issues"
+  },
+  "homepage": "https://github.com/{{workspace.owner}}/{{workspace.name}}#readme",
+  "devDependencies": {
+    "@funish/githooks": "edge",
+    "@funish/githooks-config": "edge",
+    "@funish/lint": "edge",
+    "prettier": "2.8.4",
+    "rome": "11.0.0",
+    "unbuild": "1.1.2"
+  }
+}
