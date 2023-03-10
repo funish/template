@@ -22,13 +22,6 @@
     "email": "{{workspace.author.email}}",
     "url": "{{workspace.author.url}}"
   },
-  "contributors": [
-    {
-      "name": "{{workspace.contributors.name}}",
-      "email": "{{workspace.contributors.email}}",
-      "url": "{{workspace.contributors.url}}"
-    }
-  ],
   "license": "{{package.license}}",
   "bugs": {
     "url": "https://github.com/{{workspace.owner}}/{{workspace.name}}/issues"
