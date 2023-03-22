@@ -1,5 +1,5 @@
 {
-  "name": "{{workspace.name}}",
+  "name": "{{package.scope}}{{workspace.name}}",
   "version": "0.0.0",
   "description": "{{workspace.description}}",
   "private": true,
