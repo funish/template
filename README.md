@@ -7,7 +7,7 @@
 
 ## Packages
 
-- [{{package.scope}}{{package.name}}](./packages/{{package.name}}/README.md)
+- [{{package.scope}}{{package.name}}](./packages/{{package.name}}/README.md) - {{package.description}}
 
 ## License
 
