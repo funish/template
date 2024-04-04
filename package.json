@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/{{workspace.owner}}/{{workspace.name}}#readme",
   "devDependencies": {
+    "@biomejs/biome": "1.6.3",
     "@funish/githooks": "edge",
     "@funish/githooks-config": "edge",
     "@funish/lint": "edge",
     "prettier": "3.2.5",
-    "rome": "12.1.3",
     "unbuild": "1.2.1"
   }
 }
