@@ -1,31 +1,31 @@
 {
-  "name": "{{package.scope}}{{workspace.name}}",
+  "name": "{{packageScope}}{{workspaceName}}",
   "version": "0.0.0",
-  "description": "{{workspace.description}}",
+  "description": "{{workspaceDescription}}",
   "private": true,
   "scripts": {
     "build": "pnpm -r prepack",
-    "check": "rome check . --apply-unsafe && rome format . --write",
+    "check": "biome check . --apply-unsafe && biome format . --write",
     "format": "prettier --write --list-different . --ignore-path .gitignore",
     "postinstall": "githooks install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{workspace.owner}}/{{workspace.name}}.git"
+    "url": "git+https://github.com/{{workspaceOwner}}/{{workspaceName}}.git"
   },
   "keywords": [
-    "{{workspace.keywords}}"
+    "{{workspaceKeywords}}"
   ],
   "author": {
-    "name": "{{workspace.author.name}}",
-    "email": "{{workspace.author.email}}",
-    "url": "{{workspace.author.url}}"
+    "name": "{{authorName}}",
+    "email": "{{authorEmail}}",
+    "url": "{{authorUrl}}"
   },
-  "license": "{{workspace.license}}",
+  "license": "{{workspaceLicense}}",
   "bugs": {
-    "url": "https://github.com/{{workspace.owner}}/{{workspace.name}}/issues"
+    "url": "https://github.com/{{workspaceOwner}}/{{workspaceName}}/issues"
   },
-  "homepage": "https://github.com/{{workspace.owner}}/{{workspace.name}}#readme",
+  "homepage": "https://github.com/{{workspaceOwner}}/{{workspaceName}}#readme",
   "devDependencies": {
     "@biomejs/biome": "1.6.3",
     "@funish/githooks": "edge",

@@ -1,0 +1,36 @@
+{
+  "name": "{{packageScope}}{{packageName}}",
+  "version": "0.0.0",
+  "description": "{{packageDescription}}",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "prepack": "unbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{workspaceOwner}}/{{workspaceName}}.git"
+  },
+  "keywords": [
+    "{{packageKeywords}}"
+  ],
+  "author": {
+    "name": "{{authorName}}",
+    "email": "{{authorEmail}}",
+    "url": "{{authorUrl}}"
+  },
+  "license": "{{packageLicense}}",
+  "bugs": {
+    "url": "https://github.com/{{workspaceOwner}}/{{workspaceName}}/issues"
+  },
+  "homepage": "https://github.com/{{workspaceOwner}}/{{workspaceName}}#readme"
+}

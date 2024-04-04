@@ -1,14 +1,14 @@
-# {{package.scope}}{{workspace.name}}
+# {{packageScope}}{{workspaceName}}
 
-![GitHub](https://img.shields.io/github/license/{{workspace.owner}}/{{workspace.name}})
+![GitHub](https://img.shields.io/github/license/{{workspaceOwner}}/{{workspaceName}})
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
-> {{workspace.description}}
+> {{workspaceDescription}}
 
 ## Packages
 
-- [{{package.scope}}{{package.name}}](./packages/{{package.name}}/README.md) - {{package.description}}
+- [{{packageScope}}{{packageName}}](./packages/{{packageName}}/README.md) - {{packageDescription}}
 
 ## License
 
-- [MIT](LICENSE) &copy; [{{workspace.author.name}}]({{workspace.author.url}})
+- [MIT](LICENSE) &copy; [{{authorName}}]({{authorUrl}})

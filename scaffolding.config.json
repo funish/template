@@ -1,0 +1,59 @@
+{
+  "$schema": "https://fastly.jsdelivr.net/npm/@funish/scaffolding@edge/dist/schema.json",
+  "prompts": {
+    "workspaceOwner": {
+      "type": "text",
+      "placeholder": "The owner of the workspace"
+    },
+    "workspaceName": {
+      "type": "text",
+      "placeholder": "The name of the workspace"
+    },
+    "workspaceDescription": {
+      "type": "text",
+      "placeholder": "The description of the workspace"
+    },
+    "workspaceKeywords": {
+      "type": "text",
+      "placeholder": "The keywords of the workspace"
+    },
+    "workspaceLicense": {
+      "type": "text",
+      "placeholder": "The license of the workspace",
+      "default": "MIT"
+    },
+    "workspaceYear": {
+      "type": "text",
+      "placeholder": "The year of the workspace",
+      "default": "2024"
+    },
+    "authorName": {
+      "type": "text",
+      "placeholder": "The name of the author"
+    },
+    "authorEmail": {
+      "type": "text",
+      "placeholder": "The email of the author"
+    },
+    "authorUrl": {
+      "type": "text",
+      "placeholder": "The url of the author"
+    },
+    "packageScope": {
+      "type": "text",
+      "placeholder": "The scope of the package"
+    },
+    "packageName": {
+      "type": "text",
+      "placeholder": "The name of the package"
+    },
+    "packageDescription": {
+      "type": "text",
+      "placeholder": "The descrWiption of the package"
+    },
+    "packageKeywords": {
+      "type": "text",
+      "placeholder": "The keywords of the package"
+    }
+  }
+}
