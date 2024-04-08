@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/{{workspaceOwner}}/{{workspaceName}}#readme",
   "devDependencies": {
-    "@biomejs/biome": "1.6.3",
+    "@biomejs/biome": "1.6.4",
     "@funish/githooks": "edge",
     "@funish/githooks-config": "edge",
     "@funish/lint": "edge",
