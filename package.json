@@ -32,6 +32,6 @@
     "@funish/githooks-config": "edge",
     "@funish/lint": "edge",
     "prettier": "3.2.5",
-    "unbuild": "1.2.1"
+    "unbuild": "2.0.0"
   }
 }
